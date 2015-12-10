@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+
 int  arre[10];
 int i;
 int mayor;
@@ -8,7 +9,7 @@ int pos;
 int pos1;
 int main()
 {
-	printf("PROGRAMA  QUE  TE DICE  EL MAYOR Y EL QUE LE SIGUE  ");
+	printf(" MAYOR Y EL QUE LE SIGUE  ");
    
     for(i=0; i<10; i++)
     {
@@ -35,13 +36,6 @@ int main()
           arre[9]=mayor;
           
           
-   /* for(i=0; i<6; i++)
-    {
-             printf(" \n%d",arre[i]);
-          
-             
-          }
-          */
           mayor1=0; 
     
       for(i=0; i<9; i++)
